@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // console.log(myVar)//undefined
+    // var myVar = 20;
+
+    // console.log(myLet)//reference error
+    // let myLet=10;
+
+    // console.log(myConst)//reference error
+    // const myConst=30;
+
+    //Stack memory (Primitives) 
+
+    // let a = 10;
+    // let b = a;
+    // let c = 10;
+    // if (b === c) {
+    //   console.log(true)
+    // } else {
+    //   console.log(false)
+    // }
+
+    //Heap memory (non-primitives)
+    // const myObject = {
+    //   name: 'sai',
+    //   age: 20
+    // };
+
+    // const myObject2 = myObject;
+
+    // const myObject3 = {
+    //   name: 'sai',
+    //   age: 20
+    // };
+
+    // console.log(myObject === myObject2)
+    // console.log(myObject === myObject3)
+
+    // let a = 10;
+    // let b = a;
+    // a = 20;//only a changes not b-value
+    // console.log(b)
+
+    // function createUser(name) {
+    //   let userId = Math.random();
+    //   const timeStamp = Date.now();
+
+    //   return {name , userId, timeStamp}
+    // }
+
+    // console.log(createUser("john"))
+    // console.log(createUser("jane"))
+
+    // console.log(name)
+    // var name = "sai";
+    // console.log(name,'var before block')
+    {
+      // let letName='suhas';
+      // var name='charan';
+      // const age=20;
+      // console.log(letName,"block let name")
+      // console.log(name," var inside block")
+    }
+
+    // console.log(letName,"block let name")
+
+    // console.log(name,"var after block")
+
+    //Profile Data Structure
+    const profile = {
+      userId: Math.random(),
+      name: 'sai_suhaas___03',
+      posts: 2,
+      followers: new Set(['99']),
+      following: new Set(['101'])
+    };
+    // console.log(profile)
+  </script>
+</body>
+
+</html>
